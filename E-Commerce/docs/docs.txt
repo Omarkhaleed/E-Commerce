@@ -1,0 +1,1 @@
+1--makea  a variable noNavbar if it exist the page contains the navbar.

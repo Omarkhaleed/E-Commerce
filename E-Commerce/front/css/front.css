@@ -1,0 +1,272 @@
+/* start main rulez*/
+/*asterisk class design*/
+.asterisk{
+    font-size:30px;
+    color: #0164bb;
+    position: absolute;
+    top:25px;
+    right: 10px;
+}
+body{
+    background-color: #ffffff;
+    font-size:16px;
+    height:3000px;
+}
+h1{
+    font-size: 55px;
+    margin: 40px 0;
+    font-weight: bold;
+    color:#666;
+   
+}
+/* end main rulez*/
+/* start header */
+
+.upper-bar{
+    padding: 10px;
+    position:relative;
+    background-color: white;
+    color:#0164bb;
+}
+.login-link{
+    position:absolute;
+    right:99px;
+    top:-0.5px;
+    bottom: 5px;
+    font-weight: bold;
+    
+}
+.signup-link{
+    position:absolute;
+    right:12px;
+    top:-0.5px;
+    bottom: 5px;
+    font-weight: bold;
+    
+}
+/* end header */
+/*start login form */
+.form-group{
+    position:relative;
+}
+.show-pass{
+    font-size:25px;
+    color: #0f0f0f;
+    position: absolute;
+    top:29px;
+    right:4px;
+
+}
+/* end login form*/
+.control-label{
+    font-weight: 700;
+}
+/*start edit navbar */
+.navbar{
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    color:  #0164bb !important;
+    font-size: 20px;
+    font-family:kaushan script;
+
+}
+.btn-secondary {
+    color: rgb(15, 15, 15);
+    background-color: #0164bb;
+    border-color: #000000;
+}
+/*another button*/
+
+.nav-link {
+    color:#0164bb !important;
+    }
+.navbar-nav > li > a {padding-top:5px !important; padding-bottom:5px !important;}
+.navbar {min-height:33px !important}
+/*edit dropdowmn*/
+.dropdown-menu > li >a:focus,
+.dropdown-menu > li >a:hover
+{
+    color: #0e0e0e;
+    background-color:#0164bb;
+
+}
+.bb{
+    margin-left:80px;
+    margin-top: 15px;
+    width: 250px;
+}
+
+/*end edit navbar */
+/* start edit member page*/
+/*
+ .activate{
+     margin-left:5px;
+ }
+ .delete{
+    margin-left:5px;
+}
+*/
+.mainTable tr:nth-child(even){
+    background-color:#EEE ;
+    vertical-align: middle;
+}
+.mainTable tr:first-child td{
+    background-color:rgb(0, 0, 0);
+    color: #0073c6;
+}
+.mainTable .btn{
+    padding: 3px 10px;
+}
+/* start the messages edit*/
+.redMessage{
+    padding: 10px;
+    margin:10px 0;
+    border-left: 5px solid #bb0101;
+}
+.blueMessage{
+    padding: 10px;
+    margin:10px 0;
+    border-left: 5px solid #0164bb;
+}
+
+.greenMessage{
+    padding: 10px;
+    margin:10px 0;
+    border-left: 5px solid rgb(0, 126, 0);
+}
+/* end the message edit*/
+
+/* start the category page */
+.img-thumbnail{
+    width: 350px;
+    height: 350px;
+}
+.item-box {
+   position: relative;
+  
+}
+.item-box .price-tag{
+    background-color: #0164bb;
+    padding:2px 15px ;
+    position: absolute;
+    top:0px;
+    left:0px;
+    font-weight: bold;
+    color:#0a0a0a;
+}
+/* end the category page */
+
+/* start profile page */
+.item-box{
+    margin-bottom: 8px;
+}
+.item-box .caption p{
+    height:55px;
+    max-height:44 px;
+}
+.item-box .caption a{
+    text-decoration: none;
+}
+.info{
+    margin-top:32px;
+}
+.info ul li {
+    padding: 10px;
+    margin:0px;
+
+}
+.info ul li:nth-child(odd){
+    background-color: #EEE;
+}
+.info ul li span{
+    display: inline-block;
+    width:   150px;
+}
+
+.img-thumbnail .date{
+    text-align: right;
+    color:royalblue;
+    font-weight: bold;
+    
+}
+/* end the profile page/
+
+
+
+  /* start The Errors page */
+  .The-Errors{
+       max-width: 380px;
+       margin:auto;
+
+  }
+  .The-Errors-items{
+    max-width:550px;
+    margin:auto;
+   
+
+}
+  .Mssg{
+
+
+    padding: 10px;
+    margin:10px 0;
+    border-left: 5px solid #bb0101;
+
+  }
+  /* End The Error page */
+
+  /*  Show Items Page */
+  .card-showItem{
+      width:fit-content;
+      margin:auto;
+  }
+
+
+.info2 ul li {
+    padding: 10px;
+    margin:0px;
+
+}
+.info2 ul li:nth-child(odd){
+    background-color: #EEE;
+}
+.info2 ul li span{
+    display: inline-block;
+    width: 150px;
+}
+
+.AddComments h3{
+    margin:0 0 10px;
+    text-align: center;
+
+}
+.AddComments textarea{
+margin:auto;
+display:block;
+margin-bottom: 10px;
+width:400px;
+height:100px;
+}
+.AddComments .btn{
+    margin-left: 520px;
+    width: 250px;
+}
+.comment-box{
+margin-bottom:20px;
+}
+.comment-box img {
+    max-width:100px;
+  
+  }
+  .comment-box .lead{
+    width:calc(100% - 100px);
+    background-color:#EEE;
+    padding:10px;
+    margin-top:25px;
+  }
+  /* End Items Page */
+/* #04AA6D; the color of green in w3school*/
+

@@ -1,0 +1,284 @@
+/* start main rulez*/
+/*asterisk class design*/
+.asterisk{
+    font-size:30px;
+    color: #0164bb;
+    position: absolute;
+    top:25px;
+    right: 10px;
+}
+body{
+    background-color: #ffffff;
+    font-size:16px;
+}
+/* end main rulez*/
+
+.form-group{
+    position:relative;
+}
+.show-pass{
+    font-size:30px;
+    color: #0164bb;
+    position: absolute;
+    top:25px;
+    right:-30px;
+
+}
+/*start login form */
+.login{
+    width: 300px;
+    margin: 100px auto;
+}
+.login input{
+    margin-bottom: 10px;
+    background-color:#e2dfdfe0;
+}
+/*end login form */
+
+
+/*start edit navbar */
+.navbar{
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    color:  #0164bb !important;
+    font-size: 20px;
+    font-family:kaushan script;
+
+}
+.btn-secondary {
+    color: rgb(15, 15, 15);
+    background-color: #0164bb;
+    border-color: #000000;
+}
+/*another button*/
+
+.nav-link {
+    color:#0164bb !important;
+    }
+.navbar-nav > li > a {padding-top:5px !important; padding-bottom:5px !important;}
+.navbar {min-height:33px !important}
+/*edit dropdowmn*/
+.dropdown-menu > li >a:focus,
+.dropdown-menu > li >a:hover
+{
+    color: #0e0e0e;
+    background-color:#0164bb;
+
+}
+.bb{
+    margin-left: 23px;
+    margin-top: 15px;
+    width: 250px;
+}
+h1{
+    font-size: 30px;
+    margin: 30px;
+   
+}
+/*end edit navbar */
+/* start edit member page*/
+/*
+ .activate{
+     margin-left:5px;
+ }
+ .delete{
+    margin-left:5px;
+}
+*/
+.mainTable tr:nth-child(even){
+    background-color:#EEE ;
+    vertical-align: middle;
+}
+.mainTable tr:first-child td{
+    background-color:rgb(0, 0, 0);
+    color: #0073c6;
+}
+.mainTable .btn{
+    padding: 3px 10px;
+}
+  /* end edit member page*/
+/*Start Dashboard page*/
+.home-stats .stat{
+    padding: 20px;
+    font-size:20px;
+    color:#212529;
+    border-radius:10px;
+    position: relative;
+    overflow:hidden;
+}
+.home-stats .stat i{
+    position: absolute;
+    font-size: 80px;
+    top:35px;
+    left:30px;
+}
+
+.home-stats .stat .info{
+    float: right;
+}
+.home-stats .stat a {
+    color:#212529;
+    text-decoration: none;
+}
+.home-stats .stat span{
+    display:block;
+    font-size:60px;
+}
+.latest{
+    margin-top: 40px;
+}
+.home-stats .tmembers{
+    background-color:#0164bb ;
+}
+.home-stats .tpending{
+    background-color:#bb0101 ;
+}
+.home-stats .titems{
+    background-color:#058a46 ;
+}
+.home-stats .tcomments{
+    background-color:#77008c ;
+} 
+
+.latestUsers li:nth-child(odd){
+    background-color:#EEE;
+
+}
+.latest .comment-box{
+    margin:5px 0px 10px;
+}
+.latest .comment-box .Member-comment,
+.latest .comment-box .Member-name{
+   float:left;
+}
+.latest .comment-box .Member-name{
+    width:80px;
+    text-align: center;
+    margin-right: 20px;
+}
+.latest .comment-box .Member-comment{
+    width:calc(100% - 100px);
+    background-color:#EEE;
+    padding:10px;
+}
+/*End Dashboard page */
+/* start categories page */
+ .cat .h1-parent{
+
+    font-size:10;
+    margin: 0px;
+}
+.card-header i{
+    padding: 2px;
+    position: relative;
+   
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 0.5rem 0.5rem;
+}
+.categories .cat{
+   
+    position: relative;
+    overflow:hidden;
+}
+.categories .cat:hover{
+    background-color: #EEE;
+}
+.categories .cat:hover .hidden_buttons{
+    right:10px;
+}
+.categories .cat .hidden_buttons{
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    position:absolute;
+    top: 10px;
+    right:-170px;
+}
+.categories .cat .hidden_buttons a{
+    margin-right:5px;
+}
+.categories hr{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.categories .cat .fullview p{
+    margin-top:10px 10px;
+    color: #515151;
+}
+
+.categories .cat:last-of-type ~hr{
+    display: none;
+}
+.categories{
+    margin-left:180px; 
+}
+.categories .cat h3{
+    margin: 7px;
+    cursor:pointer;
+    color:#070707;
+}
+.categories .cat .Visibility{
+    background: red;
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 4px 6px;
+}
+.categories .cat .commentting{
+    background:rgba(25, 42, 86,1.0);
+    color:white;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 4px 6px;
+}
+.categories .cat .Ads{
+    background:rgb(6, 243, 41);
+    color:white;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 4px 6px;
+}
+.categories .option a{
+    color: #4192f5;
+    text-decoration: none;
+}
+.categories .option span{
+    color: #4192f5;
+    cursor:pointer;
+}
+.categories .option .active{
+    color: rgb(255, 8, 8);
+    text-decoration: underline;
+    
+}
+.approve{
+    
+    padding: 1px;
+}
+/* start the messages edit*/
+.redMessage{
+    padding: 10px;
+    margin:10px 0;
+    border-left: 5px solid #bb0101;
+}
+.blueMessage{
+    padding: 10px;
+    margin:10px 0;
+    border-left: 5px solid #0164bb;
+}
+
+.greenMessage{
+    padding: 10px;
+    margin:10px 0;
+    border-left: 5px solid rgb(0, 126, 0);
+}
+
+
+
+
+/* end category page */
