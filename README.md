@@ -1,7 +1,7 @@
 
 # E-Commerce
 > Ecommerce is the buying and selling of goods and services over the Internet. It is conducted over computers, tablets, smartphones, and other smart devices.
->- Playlist that i fellow [_here_](https://www.youtube.com/playlist?list=PLDoPjvoNmBAxdiBh6J62wOzEnvC4CNuFU).
+>- Playlist that is watched [_here_](https://www.youtube.com/playlist?list=PLDoPjvoNmBAxdiBh6J62wOzEnvC4CNuFU).
 
 ## Table of Contents
 * [General Info](#general-information)
